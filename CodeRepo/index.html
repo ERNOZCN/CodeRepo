@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeRepository</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <style>
+      body {
+        padding: 0px;
+        margin: 0px;
+        background: linear-gradient(to left, rgb(22, 21, 21), rgb(37, 39, 37)) ;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+      .container-fluid {
+        background: linear-gradient(to right, rgb(6, 145, 6), rgb(26, 180, 26)) ;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #yanbaslik {
+        font-size: small;
+        color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 4px;
+        border-radius: 4px;
+        padding: 5px 5px;
+      }
+      .container {
+        color: rgb(255, 208, 0);
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .col-4 {
+        text-align: left;
+        padding: 20px;
+        font-size: large;
+      }
+      .col-4.bg-warning {
+        flex: 1; /* Her sütun eşit genişlikte olacak */
+      }
+      #buton{
+        background-color: black;
+        color: rgb(255, 208, 0);
+        font-size: large;
+        margin: 0%;
+        border-radius: 0px;
+      }
+      .baslik{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <span id="yanbaslik"><b>CodeRepository</b></span>
+      <div class="baslik"><b>LEARN - CODE - BUILD </b></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 bg-warning"><a href="http://127.0.0.1:5500/html.html" target="_blank"><button id="buton" ><b>HTML</b></button></a><button id="buton">˅</button></div>
+        <div class="col-4 bg-warning"><a href="" target="_blank"><button id="buton" ><b>CSS</b></button></a><button id="buton">˅</button></div>
+        <div class="col-4 bg-warning"><a href="" target="_blank"><button id="buton" ><b>JAVASCRİPT</b></button></a><button id="buton">˅</button></div>
+      </div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
